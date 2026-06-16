@@ -1,7 +1,7 @@
 # PKGi Enhanced
 
 <p align="center">
-  <img src="logo.png" alt="PKGi Enhanced logo" width="720">
+  <img src="banner.png" alt="PKGi Enhanced logo">
 </p>
 
 PKGi Enhanced is a PSP homebrew multimedia downloader based on PKGi, expanded for games, NPS content, apps, emulators, PSX ZIP packs, movies, music, TV shows, wallpapers, updates, DLCs, themes, and direct file downloads.
