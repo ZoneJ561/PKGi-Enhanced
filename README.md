@@ -120,4 +120,6 @@ PKGi Enhanced is an independent homebrew project. It is not affiliated with, spo
 
 This is the public release page for PKGi Enhanced. Downloadable release ZIPs are published through Archive.org and may also be mirrored through GitHub Releases.
 
+PKGi Enhanced is based on the original PKGi PSP project by [bucanero/pkgi-psp](https://github.com/bucanero/pkgi-psp). Credit and respect to the original creator for the foundation this project builds on.
+
 The application source code and private build workflow are maintained separately.
