@@ -6,7 +6,7 @@
 
 PKGi Enhanced is a PSP homebrew multimedia downloader based on PKGi, expanded for games, NPS content, apps, emulators, PSX ZIP packs, movies, music, TV shows, wallpapers, updates, DLCs, themes, and direct file downloads.
 
-![Latest Release](https://img.shields.io/badge/latest-v1.1.42-00a3ff)
+![Latest Release](https://img.shields.io/badge/latest-v1.1.43-00a3ff)
 ![Platform](https://img.shields.io/badge/platform-PSP-6f42c1)
 ![Release](https://img.shields.io/badge/release-Archive.org-2ea44f)
 
@@ -14,9 +14,15 @@ PKGi Enhanced is a PSP homebrew multimedia downloader based on PKGi, expanded fo
 
 Download the latest PSP release ZIP:
 
-[Download PKGi Enhanced v1.1.42](http://archive.org/download/pkgi-enhanced/pkgi-enhanced-v1.1.42.zip)
+[Download PKGi Enhanced v1.1.43](http://archive.org/download/pkgi-enhanced/pkgi-enhanced-v1.1.43.zip)
 
 The PSP app includes a built-in updater for future releases.
+
+## Built-in Catalog Updates
+
+PKGi Enhanced can now update supported catalog `.txt` files directly from the app over Wi-Fi. Open **Menu**, select **Update catalogs**, choose a PSP network profile, and the app downloads the latest available catalogs before refreshing the current list.
+
+Catalog updates use PSP-compatible HTTP links and only accept recognized PKGi Enhanced catalog filenames.
 
 ## About PKGi Enhanced
 
@@ -46,6 +52,7 @@ Downloads are staged through a temporary folder first, then finalized into the s
 * Completed files are moved into the selected destination folder.
 * Existing files are protected from silent overwrite.
 * Folder selection can remember the last folder per category.
+* Supported catalog files can be updated directly inside the PSP app.
 
 ### ZIP Support
 
