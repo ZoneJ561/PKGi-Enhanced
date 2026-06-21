@@ -6,7 +6,7 @@
 
 PKGi Enhanced is a PSP homebrew multimedia downloader based on PKGi, expanded for games, NPS content, apps, emulators, PSX ZIP packs, movies, music, TV shows, wallpapers, updates, DLCs, themes, and direct file downloads.
 
-![Latest Release](https://img.shields.io/badge/latest-v1.1.43-00a3ff)
+![Latest Release](https://img.shields.io/badge/latest-v1.1.44-00a3ff)
 ![Platform](https://img.shields.io/badge/platform-PSP-6f42c1)
 ![Release](https://img.shields.io/badge/release-Archive.org-2ea44f)
 
@@ -14,7 +14,7 @@ PKGi Enhanced is a PSP homebrew multimedia downloader based on PKGi, expanded fo
 
 Download the latest PSP release ZIP:
 
-[Download PKGi Enhanced v1.1.43](http://archive.org/download/pkgi-enhanced/pkgi-enhanced-v1.1.43.zip)
+[Download PKGi Enhanced v1.1.44](http://archive.org/download/pkgi-enhanced/pkgi-enhanced-v1.1.44.zip)
 
 The PSP app includes a built-in updater for future releases.
 
@@ -53,6 +53,7 @@ Downloads are staged through a temporary folder first, then finalized into the s
 * Existing files are protected from silent overwrite.
 * Folder selection can remember the last folder per category.
 * Supported catalog files can be updated directly inside the PSP app.
+* Local ZIP files already on the Memory Stick can be installed without downloading them again.
 
 ### ZIP Support
 
@@ -61,6 +62,8 @@ Downloads are staged through a temporary folder first, then finalized into the s
 * Music album ZIPs can extract as album folders.
 * Movies and TV show ZIPs can extract to media folders.
 * Single-root ZIPs are handled without creating doubled folders.
+* Deep wrapper folders are removed when an app, emulator, or PSX archive contains one EBOOT folder.
+* Extraction progress is measured by uncompressed bytes for clearer progress on large archives.
 
 ### PSP Hardware Support
 
@@ -81,6 +84,8 @@ ms0:/PSP/GAME/
 
 4. Add or update the catalog `.txt` files inside the `PKGi Enhanced` folder.
 5. Launch PKGi Enhanced from the PSP Game menu.
+
+The release includes `config.txt` and header-only starter catalogs, so the app can launch before catalogs are populated.
 
 ## Create Catalogs
 
