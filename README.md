@@ -6,7 +6,7 @@
 
 PKGi Enhanced is a PSP homebrew multimedia downloader based on PKGi, expanded for games, NPS content, apps, emulators, PSX ZIP packs, movies, music, TV shows, wallpapers, updates, DLCs, themes, and direct file downloads.
 
-![Latest Release](https://img.shields.io/badge/latest-v1.1.57-00a3ff)
+![Latest Release](https://img.shields.io/badge/latest-v1.1.58-00a3ff)
 ![Platform](https://img.shields.io/badge/platform-PSP-6f42c1)
 ![Release](https://img.shields.io/badge/release-Archive.org-2ea44f)
 
@@ -14,7 +14,7 @@ PKGi Enhanced is a PSP homebrew multimedia downloader based on PKGi, expanded fo
 
 Download the latest PSP release ZIP:
 
-[Download PKGi Enhanced v1.1.57](http://archive.org/download/pkgi-enhanced/pkgi-enhanced-v1.1.57.zip)
+[Download PKGi Enhanced v1.1.58](http://archive.org/download/pkgi-enhanced/pkgi-enhanced-v1.1.58.zip)
 
 The PSP app includes a built-in updater for future releases.
 
@@ -85,7 +85,7 @@ ms0:/PSP/GAME/
 4. Add or update the catalog `.txt` files inside the `PKGi Enhanced` folder.
 5. Launch PKGi Enhanced from the PSP Game menu.
 
-The release includes `config.txt` and header-only starter catalogs, so the app can launch before catalogs are populated.
+The release includes `config.txt` and empty starter catalogs, so the app can launch before catalogs are populated.
 
 ## Create Catalogs
 
